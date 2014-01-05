@@ -1,7 +1,7 @@
 <div>
 	<ul>
 		<li><a href="<?=Config::SITE_PREFIX?>/account">Account</a></li>
-		<li><a href="<?=Config::SITE_PREFIX?>/methods">Methods</a></li>
+		<li>Methods</li>
 		<li><a href="<?=Config::SITE_PREFIX?>/payments">Payments</a></li>
 	</ul>
 </div>
@@ -32,7 +32,7 @@
 		</label>		
 		<label>
 			<div>
-				<input type="submit" name="method" value="<?php echo $formId ? 'Edit' : 'Add' ?>">
+				<input type="submit" class="uk-button" name="method" value="<?php echo $formId ? 'Edit' : 'Add' ?>">
 			</div>
 		</label>
 		<input type="hidden" name="id" value="<?=$formId?>">

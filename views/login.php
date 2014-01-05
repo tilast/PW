@@ -9,5 +9,5 @@
 		<input type="password" name="password" />
 	</label>
 
-	<input type="submit" name="submit">
+	<input type="submit" name="submit" class="uk-button">
 </form>

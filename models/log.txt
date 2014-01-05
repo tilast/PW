@@ -74,3 +74,22 @@ User <tilast> with id <1> got methods page
 User <tilast> with id <1> got methods page
 User <tilast> with id <1> got account page
 User <tilast> with id <1> logouted
+User <Alla> with id <5> logined
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> logouted
+User <Alla> with id <5> logined
+User <Alla> with id <5> got account page
+User <Alla> with id <5> logouted

@@ -3,7 +3,7 @@
 <ul>
 	<li><a href="<?=Config::SITE_PREFIX?>/account">Account</a></li>
 	<li><a href="<?=Config::SITE_PREFIX?>/methods">Methods</a></li>
-	<li><a href="<?=Config::SITE_PREFIX?>/payments">Payments</a></li>
+	<li>Payments</li>
 </ul>
 
 Pay:
@@ -22,7 +22,7 @@ Pay:
 	</label>
 	<label>
 		<div>
-			<input type="submit" name="add">
+			<input type="submit" name="add" class="uk-button">
 		</div>
 	</label>
 </form>

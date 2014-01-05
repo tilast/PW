@@ -21,6 +21,8 @@
 		}
 		
 		protected function createPage() {
-			echo $this->template("index", array("title" => $this->title, "content" => $this->content));
+			$template = array("title" => $this->title, "content" => $this->content, "logined" => $this->user->isLogined());
+
+			echo $this->template("index", $template);
 		}
 	}
