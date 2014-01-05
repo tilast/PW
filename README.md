@@ -19,3 +19,6 @@ Site uses simple authorization based only on sessions.
 - Add payment methods
 - Pay
 - View history of payments
+
+## Deployed
+http://tilast.pp.ua
