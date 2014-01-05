@@ -2,6 +2,10 @@
 
 	include_once('./models/db.php');
 
+	/**
+	* class Methods
+	* model for interact with payment methods
+	*/
 	class Method {
 		private static $instance;
 		private $db; 
