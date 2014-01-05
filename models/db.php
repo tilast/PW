@@ -7,38 +7,17 @@ class DB
 	{
 		try
 		{
-			if(!file_exists("model/todolists.db")) {
-				$this->dbh = new PDO("sqlite:model/todolists.db");
-				$this->dbh->beginTransaction();
-				$this->dbh->exec("
-					CREATE TABLE projects(
-						project_id INTEGER PRIMARY KEY,
-						name TEXT
-					)
-				");
-				$this->dbh->exec("
-					CREATE TABLE tasks(
-						task_id INTEGER PRIMARY KEY,
-						project_id INTEGER,
-						content TEXT,
-						priority INTEGER,
-						status INTEGER
-					)
-				");
-				$this->dbh->exec("INSERT INTO projects(name) VALUES('25.08 planes')");
-				$this->dbh->exec("INSERT INTO projects(name) VALUES('26.08 planes')");
-				$this->dbh->exec("INSERT INTO tasks(content, project_id, status) VALUES('go to meeting with Pavlo', 1, 1)");
-				$this->dbh->exec("INSERT INTO tasks(content, project_id) VALUES('end development of this site', 1)");
-				$this->dbh->exec("INSERT INTO tasks(content, project_id) VALUES('meet Sasha', 2)");
-				$this->dbh->exec("INSERT INTO tasks(content, project_id) VALUES('go to work', 2)");
-				$this->dbh->exec("INSERT INTO tasks(content, project_id) VALUES('walk with Sasha', 2)");
-				$this->dbh->commit();
+			if(!file_exists("models/test.db")) {
+				touch("models/test.db");
+				$this->dbh = new PDO("sqlite:models/test.db");
+				$this->createTables();
 			} else {
-				$this->dbh = new PDO("sqlite:model/todolists.db");
+				$this->dbh = new PDO("sqlite:models/test.db");
 			}
 		}
 		catch(PDOException $ex)
 		{
+			echo "PDO says: <br>";
 			echo $ex->getMessage();
 		}
 		catch(Exception $ex)
@@ -47,10 +26,10 @@ class DB
 		}
 	}
 	private static $instance;
-	public static function Instance()
+	public static function getInstance()
 	{
 		if(self::$instance == null)
-			self::$instance = new M_DB();
+			self::$instance = new DB();
 
 		return self::$instance;
 	}
@@ -139,7 +118,6 @@ class DB
 				}
 				$set_s = implode(",", $set);
 			}
-			//return "UPDATE $table SET $set_s WHERE $where";
 
 			return $this->dbh->exec("UPDATE $table SET $set_s WHERE $where");
 		}
@@ -167,5 +145,41 @@ class DB
 		{
 			$ex->getMessage();
 		}
+	}
+
+	private function createTables() {
+		$this->dbh->beginTransaction();
+		$this->dbh->exec("
+			CREATE TABLE users(
+				id_user INTEGER PRIMARY KEY,
+				password VARCHAR,
+				login VARCHAR
+			)
+		");
+		$this->dbh->exec("
+			CREATE TABLE methods(
+				id_method INTEGER PRIMARY KEY,
+				name VARCHAR,
+				comission VARCHAR,
+				type INTEGER
+			)
+		");
+		$this->dbh->exec("
+			CREATE TABLE payments(
+				id_payment INTEGER PRIMARY KEY,
+				price VARCHAR,
+				originalPrice VARCHAR,
+				currency VARCHAR,
+				id_user INTEGER,
+				id_method INTEGER
+			)
+		");
+		$this->dbh->exec("
+			CREATE TABLE user2method(
+				id_user INTEGER,
+				id_method INTEGER
+			)
+		");
+		$this->dbh->commit();
 	}
 } 

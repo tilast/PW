@@ -1,0 +1,76 @@
+User <Alla> with id <5> logouted
+User <Alla> with id <5> logined
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> added method <HelloBank> with id <10> and comission <15>
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> added payment <> with id <6>, price - <7268.05>, original price - <7268.05> by method <> with id <10>
+User <Alla> with id <5> added payment with id <7>, price - <2132>, original price - <2132> by method <> with id <8>
+User <Alla> with id <5> added payment with id <8>, price - <233>, original price - <233> by method <> with id <3>
+User <Alla> with id <5> added payment with id <9>, price - <8787284>, original price - <214324> by method <Alpha bank> with id <9>
+User <Alla> with id <5> added payment with id <10>, price - <992868.45>, original price - <945589> by method <9876543210> with id <3>
+User <Alla> with id <5> added payment with id <11>, price - <24.15>, original price - <23ui2> by method <9876543210> with id <3>
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got account page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> edited method <Alpha bank> with id <9>: comission <30%>
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> edited method <Alpha bank> with id <9>: comission <30%>
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> edited method <Alpha bank> with id <9>: comission <15%>
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> got methods page
+User <Alla> with id <5> edited method <HelloBank> with id <10>: comission <10%>
+User <Alla> with id <5> got methods page
+User <tilast> with id <1> logined
+User <tilast> with id <1> got account page
+User <tilast> with id <1> got account page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got methods page
+User <tilast> with id <1> got account page
+User <tilast> with id <1> logouted

@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Routing rules
+RewriteRule ^login$ index.php?go=login [L]
+RewriteRule ^account$ index.php?go=account [L]
+RewriteRule ^signup$ index.php?go=signup [L]
+RewriteRule ^methods$ index.php?go=methods [L]
+RewriteRule ^methods/([\d]+)$ index.php?go=methods&id=$1 [L]
+RewriteRule ^payments$ index.php?go=payments [L]
+RewriteRule ^payments/([\d]+)$ index.php?go=payments&type=$1 [L]
