@@ -1,4 +1,9 @@
 <?php
+	
+	/**
+	* abstract class Base
+	* base class which prepare controllers work
+	*/
 
 	abstract class Base extends Controller {
 		protected $title;

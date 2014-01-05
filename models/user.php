@@ -2,7 +2,7 @@
 	include_once('./models/db.php');
 	/**
 	 * class User
-	 * class which describes user's issue
+	 * class which describes interaction with users
 	*/
 	class User {
 		private static $instance;

@@ -1,5 +1,11 @@
 <?php
 
+/**
+* class DB
+* organize an interaction with database throught PDO
+* also, here it creates db-file and required tables
+*/
+
 class DB
 {
 	private $dbh;

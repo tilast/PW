@@ -2,6 +2,11 @@
 
 	include_once('./models/db.php');
 
+	/**
+	* class Payment
+	* model for interact with payments
+	*/
+
 	class Payment {
 		private static $instance;
 		private $db; 

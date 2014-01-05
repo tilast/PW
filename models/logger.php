@@ -1,5 +1,9 @@
 <?php
 
+	/**
+	* class Logger
+	* writes logs in required file
+	*/
 	class Logger {
 		private static $instance;
 		private $filename;
